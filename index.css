@@ -16,9 +16,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	outline: 0;
 	}
 
-ol, ul {
-	list-style: none;
-	}
+
 /* tables still need cellspacing="0" in the markup */
 
 caption, th, td {
@@ -32,6 +30,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 blockquote, q {
 	quotes: "" "";
 	}
+
 /*universal style*/
 *{
     box-sizing: border-box;
@@ -41,12 +40,13 @@ blockquote, q {
     border: 1px solid grey;
 }
 
-/* css styles
+/*general styles*/
+
+/* font styles to use
 font-family: 'Chelsea Market', cursive;
 font-family: 'Roboto Mono', monospace;
 */
 
-/*general styles*/
 html{
     font-size: 62.7%;
 }
@@ -60,11 +60,14 @@ h1{
     font-family: 'Chelsea Market', cursive;
     font-size: 14pt;
 }
-section{
+section {
     padding: 4% 0;
 }
-a{
+a {
     text-decoration: none;
+    font-size: 10pt;
+    color: #ececec;
+    font-family: 'Roboto Mono', monospace;
 }
 
 /*header section styles*/
@@ -78,39 +81,61 @@ nav a{
     border-radius: 10px;
     text-align: center;
 }
+.bottom{
+
+    background-color: #f9e7dc;
+}
 .orange {
-    background-color: ;
-    margin-left: 10%
+    background-color: #FF764E;
+    margin-left: 10%;
+    text-decoration: none;
 }
 .blue{
-    background-color: ;
+    background-color: #5ED3EB;
     margin: 0 24%;
 }
 .yellow{
-    background-color: ;
-    margin-right: 
+    background-color: #FFCD69;
+    margin-right: 10%;
 }
 
 /*top section styles*/
-.top{
+/* .top{
     position:absolute;
 }
 .left, .right{
     display: inline-block;
+    font-family: 'Roboto Mono', monospace;
 }
 .left{
     width: 35%;
 }
 .right{
     width: 35%;
-    position:absolute;
+    padding: 3%;
 
 }
 .left img{
-    width: ;
+    width: 50%;
     border-radius: 50%;
 }
 .right img{
-    width: 60%;
 
+} */
+
+.top{
+    
 }
+
+/*the middle box w 2 paragraphs*/
+.middle{
+    display: inline-block;
+    margin:5% 5%;
+    background-color: #DDB9A3;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.middle p{
+    padding: 5%;
+}
+
