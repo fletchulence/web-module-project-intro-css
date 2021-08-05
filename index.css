@@ -1,0 +1,197 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+
+
+/* tables still need cellspacing="0" in the markup */
+
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+/*universal style*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    /* border: 1px solid grey; */
+}
+
+/*general styles*/
+
+/* font styles to use
+font-family: 'Chelsea Market', cursive;
+font-family: 'Roboto Mono', monospace;
+*/
+
+html{
+    font-size: 62.7%;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5; /*easier to read w space*/
+    color: #4f4f4f; /*accessibility purposes*/
+    font-family: 'Roboto Mono', monospace;
+
+
+    /*hero image of halfdome*/
+    background-image: url(assets/footer_img.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 400%;
+    color: black;
+    
+}
+
+/* section{
+    padding:2% 2%;
+} */
+
+a {
+    text-decoration: none;
+    font-size: 120%;
+    color: #ececec;
+
+}
+
+/*header and footer section styles*/
+nav {
+    padding: 5% 5%;
+}
+
+nav a{
+    display: inline-block;
+    padding: 1% 4%;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.orange {
+    background-color: #FF764E;
+    margin-left: 5%;
+    text-decoration: none;
+}
+.blue{
+    background-color: #5ED3EB;
+    margin: 0 19%;
+}
+.yellow{
+    background-color: #FFCD69;
+    margin-right: 5%;
+}
+
+/*top section styles*/
+.top{
+    display: inline-block;
+    position:relative;
+    margin: 1%;
+}
+.left, .right{
+    text-align: center;
+    display: inline-block;
+}
+
+.left{
+    width: 35%;
+    margin-left: 6%;
+} 
+.left img{
+    width: 70%;
+    border-radius: 50%;
+    margin-right: 40%;
+}
+.right{
+    width: 65%;
+    position:absolute;
+    top: 5%;
+    right: 5%;
+
+}
+.right h2, p{
+    font-size: 120%;
+    padding:2%;
+}
+/* .right p{
+    padding:5%;
+} */
+
+/*the middle box w 2 paragraphs*/
+.main-text{
+    display: inline-block;
+    margin: 1% 5%;
+    width: 90%;
+    background-color: #DDB9A3;
+}
+
+.main-text p{
+    padding: 1% 1%;
+    color: #fff;
+    text-align: center;
+    font-size: 120%;
+
+}
+
+
+/*blurbs about fire,RV in the middle*/
+.blurbs{
+    display: inline-block;
+    width: 40%;
+    margin:0 30% 20% 30%;
+}
+/* .image-cont{
+    display: inline-block;
+    width: 50%;
+} */
+.block img{
+    display: inline-block;
+    width: 20%;
+    margin: 0 40%;
+}
+.blurbs p{
+    text-align: center;
+    font-size: 75%;
+    margin-bottom: 5%;
+}
+/*bold the text for the RV anc Campfire*/
+ .highlight {
+    font-weight:900;
+}
+
+/*footer will leave room for background photo*/
+footer {
+    background-color: #F9E7DC;
+    margin-bottom: 0;
+    margin-top: 20%;
+
+}
+
