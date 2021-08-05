@@ -51,7 +51,7 @@ html{
     font-size: 62.7%;
 }
 body{
-    font-size: 1.6rem;
+    font-size: 2rem;
     line-height: 1.5; /*easier to read w space*/
     color: #4f4f4f; /*accessibility purposes*/
     font-family: 'Roboto Mono', monospace;
@@ -66,8 +66,9 @@ body{
 }
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size: 400%;
-    color: black
+    font-size: 300%;
+    color: black;
+    
 }
 
 section {
@@ -86,8 +87,8 @@ nav {
 
 nav a{
     display: inline-block;
-    padding:1% 0;
-    width: 15% ;
+    padding: 1% 0;
+    width: 15%;
     border-radius: 10px;
     text-align: center;
     color: #fff;
@@ -110,7 +111,9 @@ nav a{
 
 /*top section styles*/
 .top{
+    display: inline-block;
     position:relative;
+    margin-right: 10%;
 }
 .left, .right{
     text-align: center;
@@ -119,6 +122,7 @@ nav a{
 
 .left{
     width: 35%;
+    margin-left: 6%;
 } 
 .left img{
     width: 70%;
@@ -127,7 +131,8 @@ nav a{
 .right{
     width: 65%;
     position:absolute;
-    top: 25%;
+    top: 20%;
+
 }
 .right h2, p{
     font-size: 120%;
@@ -140,14 +145,14 @@ nav a{
 /*the middle box w 2 paragraphs*/
 .main-text{
     display: inline-block;
-    margin: 0 10%;
-    width: 80%;
+    margin: 1% 5%;
+    width: 90%;
     background-color: #DDB9A3;
     text-align: center;
 }
 
 .main-text p{
-    padding: 1%;
+    padding: 1% 1%;
     color: #fff;
 }
 
@@ -168,12 +173,12 @@ nav a{
 } */
 .block img{
     display: inline-block;
-    width: 20%;
-    margin: 0 40%;
+    width: 25%;
+    margin: 0 38%;
 }
 .blurbs p{
     text-align: center;
-    font-size: 80%;
+    font-size: 50%;
     margin-bottom: 10%;
 }
 
