@@ -51,7 +51,7 @@ html{
     font-size: 62.7%;
 }
 body{
-    font-size: 2rem;
+    font-size: 1.6rem;
     line-height: 1.5; /*easier to read w space*/
     color: #4f4f4f; /*accessibility purposes*/
     font-family: 'Roboto Mono', monospace;
@@ -66,29 +66,30 @@ body{
 }
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size: 300%;
+    font-size: 400%;
     color: black;
     
 }
 
-section {
-    padding: 4% 0;
-}
+/* section{
+    padding:2% 2%;
+} */
+
 a {
     text-decoration: none;
-    font-size: 80%;
+    font-size: 120%;
     color: #ececec;
+
 }
 
 /*header and footer section styles*/
 nav {
-    padding: 2% 2%;
+    padding: 5% 5%;
 }
 
 nav a{
     display: inline-block;
-    padding: 1% 0;
-    width: 15%;
+    padding: 1% 4%;
     border-radius: 10px;
     text-align: center;
     color: #fff;
@@ -97,23 +98,23 @@ nav a{
 
 .orange {
     background-color: #FF764E;
-    margin-left: 10%;
+    margin-left: 5%;
     text-decoration: none;
 }
 .blue{
     background-color: #5ED3EB;
-    margin: 0 15%;
+    margin: 0 19%;
 }
 .yellow{
     background-color: #FFCD69;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 
 /*top section styles*/
 .top{
     display: inline-block;
     position:relative;
-    margin-right: 10%;
+    margin: 1%;
 }
 .left, .right{
     text-align: center;
@@ -127,11 +128,13 @@ nav a{
 .left img{
     width: 70%;
     border-radius: 50%;
+    margin-right: 40%;
 }
 .right{
     width: 65%;
     position:absolute;
-    top: 20%;
+    top: 5%;
+    right: 5%;
 
 }
 .right h2, p{
@@ -148,20 +151,18 @@ nav a{
     margin: 1% 5%;
     width: 90%;
     background-color: #DDB9A3;
-    text-align: center;
 }
 
 .main-text p{
     padding: 1% 1%;
     color: #fff;
+    text-align: center;
+    font-size: 120%;
+
 }
 
-/*bold the text for the RV anc Campfire*/
-.bold{
-    font-weight: bold;
-}
 
-/*blurbs about fire in the middle*/
+/*blurbs about fire,RV in the middle*/
 .blurbs{
     display: inline-block;
     width: 40%;
@@ -173,20 +174,24 @@ nav a{
 } */
 .block img{
     display: inline-block;
-    width: 25%;
-    margin: 0 38%;
+    width: 20%;
+    margin: 0 40%;
 }
 .blurbs p{
     text-align: center;
-    font-size: 50%;
-    margin-bottom: 10%;
+    font-size: 75%;
+    margin-bottom: 5%;
 }
-
+/*bold the text for the RV anc Campfire*/
+ .highlight {
+    font-weight:900;
+}
 
 /*footer will leave room for background photo*/
 footer {
     background-color: #F9E7DC;
     margin-bottom: 0;
     margin-top: 20%;
+
 }
 
