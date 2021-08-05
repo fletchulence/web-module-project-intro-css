@@ -37,7 +37,7 @@ blockquote, q {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 /*general styles*/
@@ -54,37 +54,46 @@ body{
     font-size: 1.6rem;
     line-height: 1.5; /*easier to read w space*/
     color: #4f4f4f; /*accessibility purposes*/
+    font-family: 'Roboto Mono', monospace;
 
+
+    /*hero image of halfdome*/
+    background-image: url(assets/footer_img.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    
 }
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size: 14pt;
+    font-size: 400%;
+    color: black
 }
+
 section {
     padding: 4% 0;
 }
 a {
     text-decoration: none;
-    font-size: 10pt;
+    font-size: 80%;
     color: #ececec;
-    font-family: 'Roboto Mono', monospace;
 }
 
-/*header section styles*/
-nav{
-    padding: 2% 0;
+/*header and footer section styles*/
+nav {
+    padding: 2% 2%;
 }
+
 nav a{
     display: inline-block;
-    padding: 1% 0;
-    width: 10%;
+    padding:1% 0;
+    width: 15% ;
     border-radius: 10px;
     text-align: center;
-}
-.bottom{
+    color: #fff;
 
-    background-color: #f9e7dc;
 }
+
 .orange {
     background-color: #FF764E;
     margin-left: 10%;
@@ -92,7 +101,7 @@ nav a{
 }
 .blue{
     background-color: #5ED3EB;
-    margin: 0 24%;
+    margin: 0 15%;
 }
 .yellow{
     background-color: #FFCD69;
@@ -100,42 +109,79 @@ nav a{
 }
 
 /*top section styles*/
-/* .top{
-    position:absolute;
+.top{
+    position:relative;
 }
 .left, .right{
+    text-align: center;
     display: inline-block;
-    font-family: 'Roboto Mono', monospace;
 }
+
 .left{
     width: 35%;
-}
-.right{
-    width: 35%;
-    padding: 3%;
-
-}
+} 
 .left img{
-    width: 50%;
+    width: 70%;
     border-radius: 50%;
 }
-.right img{
-
+.right{
+    width: 65%;
+    position:absolute;
+    top: 25%;
+}
+.right h2, p{
+    font-size: 120%;
+    padding:2%;
+}
+/* .right p{
+    padding:5%;
 } */
 
-.top{
-    
-}
-
 /*the middle box w 2 paragraphs*/
-.middle{
+.main-text{
     display: inline-block;
-    margin:5% 5%;
+    margin: 0 10%;
+    width: 80%;
     background-color: #DDB9A3;
-    font-family: 'Roboto Mono', monospace;
+    text-align: center;
 }
 
-.middle p{
-    padding: 5%;
+.main-text p{
+    padding: 1%;
+    color: #fff;
+}
+
+/*bold the text for the RV anc Campfire*/
+.bold{
+    font-weight: bold;
+}
+
+/*blurbs about fire in the middle*/
+.blurbs{
+    display: inline-block;
+    width: 40%;
+    margin:0 30% 20% 30%;
+}
+/* .image-cont{
+    display: inline-block;
+    width: 50%;
+} */
+.block img{
+    display: inline-block;
+    width: 20%;
+    margin: 0 40%;
+}
+.blurbs p{
+    text-align: center;
+    font-size: 80%;
+    margin-bottom: 10%;
+}
+
+
+/*footer will leave room for background photo*/
+footer {
+    background-color: #F9E7DC;
+    margin-bottom: 0;
+    margin-top: 20%;
 }
 
